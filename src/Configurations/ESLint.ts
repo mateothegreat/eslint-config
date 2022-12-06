@@ -1,58 +1,7 @@
-module.exports = {
-    env: {
-        node: true,
-        jest: true,
-        'jest/globals': true,
-    },
-    ignorePatterns: [
-        '**/dist',
-        '**/e2e',
-        '**/node_modules'
-    ],
-    extends: [
-        'eslint:recommended',
-        'plugin:@typescript-eslint/recommended',
-        'plugin:jsdoc/recommended',
-        'plugin:jest/all',
-        'plugin:import/recommended',
-        'plugin:import/typescript'
-    ],
-    parser: '@typescript-eslint/parser',
-    parserOptions: {
-        ecmaVersion: 13,
-        sourceType: 'module'
-    },
-    plugins: [
-        '@typescript-eslint',
-        'import',
-        'jsdoc',
-        'jest',
-        'jest-formatting',
-        'sort-imports-es6-autofix'
-    ],
-    rules: {
-        'jest/consistent-test-it': [
-            'error',
-            {
-                'fn': 'test',
-                'withinDescribe': 'test'
-            }
-        ],
-        'jest/no-jest-import': 'error',
-        'jest/no-duplicate-hooks': 'error',
-        'jest/no-commented-out-tests': 'error',
-        'jest/no-conditional-expect': 0,
-        'jest/no-disabled-tests': 'warn',
-        'jest/no-focused-tests': 'error',
-        'jest/no-identical-title': 'error',
-        'jest/prefer-to-have-length': 'warn',
-        'jest/prefer-expect-assertions': 'error',
-        'jest/valid-expect': 'error',
-        'jest/valid-expect-in-promise': 'error',
-        'jest/valid-describe-callback': 'error',
-        'jest/no-hooks': 0,
-        'jest-formatting/padding-around-all': 2,
-        'jest/require-hook': 0,
+export class ESLint {
+
+    public static rules = {
+
         'constructor-super': 2,
         'for-direction': 2,
         'getter-return': 2,
@@ -105,9 +54,8 @@ module.exports = {
         'no-unsafe-negation': 2,
         'no-unused-labels': 2,
         'no-unused-vars': 'off',
-        '@typescript-eslint/no-unused-vars': [
-            'error'
-        ],
+
+        'comma-spacing': 'off',
         'no-useless-catch': 2,
         'no-useless-escape': 2,
         'no-with': 2,
@@ -120,36 +68,27 @@ module.exports = {
         'require-await': 2,
         'prefer-const': 2,
         'no-else-return': 2,
-        'comma-spacing': 2,
-        curly: 2,
+        'curly': 2,
         'array-bracket-spacing': [
             'error',
-            'always'
+            'always',
+            {
+                "arraysInArrays": true,
+                "objectsInArrays": true,
+                "singleValue": true
+            }
         ],
         'arrow-spacing': 2,
-        camelcase: 2,
+        'camelcase': 2,
         'linebreak-style': 2,
-        quotes: [
+        'quotes': [
             2,
             'single',
             {
                 avoidEscape: true
             }
-        ],
-        'sort-imports-es6-autofix/sort-imports-es6': [
-            2,
-            {
-                ignoreCase: false,
-                ignoreMemberSort: false,
-                memberSyntaxSortOrder: [
-                    'none',
-                    'all',
-                    'multiple',
-                    'single'
-                ]
-            }
-        ],
-        '@typescript-eslint/no-explicit-any': 0
-    }
-}
+        ]
 
+    }
+
+}
