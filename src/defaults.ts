@@ -27,6 +27,7 @@ module.exports = {
         'prettier',
         'eslint-config-prettier'
     ],
+    overrides: [ ...Jest.overrides],
     parser: '@typescript-eslint/parser',
     parserOptions: {
         ecmaVersion: 13,

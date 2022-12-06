@@ -1,4 +1,12 @@
 export class Jest {
+    public static overrides = [
+        {
+            'files': [ 'test/**' ],
+            'plugins': [ 'jest' ],
+            'extends': [ 'plugin:jest/recommended' ],
+            'rules': { 'jest/prefer-expect-assertions': 'off' }
+        }
+    ];
     public static rules = {
         'jest/consistent-test-it': [
             'error',
