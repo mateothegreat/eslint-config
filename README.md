@@ -19,7 +19,7 @@ Covers:
 To use this package in your own projects simply run:
 
 ```shell
-npm i -D @mateothegreat/eslint-config
+npm i -D @mateothegreat/eslint-config@latest
 ```
 
 and then update your `package.json` to include:
