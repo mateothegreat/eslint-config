@@ -34,7 +34,7 @@ jobs:
 
       - name: Build
         run: |
-            cp package.json dist/package.json
+            cp package.json dist/
             cd dist
             npm run build
 
