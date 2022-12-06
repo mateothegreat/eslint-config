@@ -34,12 +34,12 @@ jobs:
 
       - name: Build
         run: |
-            cp package.json dist/
-            cd dist
             npm run build
+            cp package.json dist/package.json
 
       - name: Publish npm package
         run: |
-          npm publish
+            cd dist
+            npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
