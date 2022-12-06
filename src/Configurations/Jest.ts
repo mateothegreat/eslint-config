@@ -15,7 +15,7 @@ export class Jest {
                 withinDescribe: 'test'
             }
         ],
-        'jest/no-jest-import': 'error',
+        // 'jest/no-jest-import': 'error',
         'jest/no-duplicate-hooks': 'error',
         'jest/no-commented-out-tests': 'error',
         'jest/no-conditional-expect': 0,
