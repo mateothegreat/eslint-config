@@ -10,8 +10,8 @@
     },
     "exports": {
         ".": "./index.js",
-        "./index": "./index.js",
-        "./defaults": "./defaults.js",
+        "./index": "./dist/defaults.js",
+        "./dist/defaults": "./dist/defaults.js",
         "./package.json": "./package.json"
     },
     "scripts": {
