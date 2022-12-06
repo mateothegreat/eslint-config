@@ -7,7 +7,7 @@ Covers:
 * Typescript
 * Jest
 * JSdoc
-* Importing
+* Importing + sorting
 * and more.. see: [default.js](defaults.js)
 
 ## Installation
