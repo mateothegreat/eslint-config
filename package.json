@@ -9,10 +9,8 @@
         "email": "matthew@matthewdavis.io"
     },
     "exports": {
-        ".": "./dist/defaults.js",
-        "./index": "./index.js",
-        "./dist/defaults": "./dist/defaults.js",
-        "./package.json": "./package.json"
+        ".": "./defaults.js",
+        "./defaults": "./defaults.js"
     },
     "scripts": {
         "build": "tsc"
