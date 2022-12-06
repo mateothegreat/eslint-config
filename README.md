@@ -38,7 +38,7 @@ and then update your `package.json` to include:
     ...
     "eslintConfig": {
         "extends": [
-            "@mateothegreat/eslint-config/dist/defaults"
+            "@mateothegreat/eslint-config"
         ]
     }
     ...
