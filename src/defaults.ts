@@ -53,6 +53,13 @@ module.exports = {
         ...Typescript.rules,
         ...Prettier.rules
 
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".ts"]
+            }
+        }
     }
 };
 
