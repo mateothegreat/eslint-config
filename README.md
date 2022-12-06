@@ -1,14 +1,23 @@
-# eslint configuration
+# eslint configuration mega pack
 
-Opinionated eslint configuration installable as a node package.
+:monocle_face: Opinionated eslint configuration installable as a node package.
 
+```bash
+.%%%%%%..%%%%%%...........%%%%...%%%%%%..%%..%%..%%%%%%..........%%%%%%...%%%%....%%%%...%%..%%.
+...%%......%%............%%..%%....%%....%%%.%%....%%............%%......%%..%%..%%.......%%%%..
+...%%......%%............%%%%%%....%%....%%.%%%....%%............%%%%....%%%%%%...%%%%.....%%...
+...%%......%%............%%..%%....%%....%%..%%....%%............%%......%%..%%......%%....%%...
+.%%%%%%....%%............%%..%%..%%%%%%..%%..%%....%%............%%%%%%..%%..%%...%%%%.....%%...
+................................................................................................
+```
 Covers:
 
 * Typescript
 * Jest
 * JSdoc
 * Importing + sorting
-* and more.. see: [default.js](defaults.js)
+* Prettier integration
+* and more.. see [src/Configurations/](src/Configurations)!
 
 ## Installation
 
@@ -29,7 +38,7 @@ and then update your `package.json` to include:
     ...
     "eslintConfig": {
         "extends": [
-            "@mateothegreat/eslint-config/defaults"
+            "@mateothegreat/eslint-config/dist/defaults"
         ]
     }
     ...
