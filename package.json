@@ -9,8 +9,8 @@
         "email": "matthew@matthewdavis.io"
     },
     "exports": {
-        ".": "./index.js",
-        "./index": "./dist/defaults.js",
+        ".": "./dist/defaults.js",
+        "./index": "./index.js",
         "./dist/defaults": "./dist/defaults.js",
         "./package.json": "./package.json"
     },
