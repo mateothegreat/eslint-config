@@ -1,2 +1,2 @@
 /* eslint @typescript-eslint/no-var-requires: "off" */
-module.exports = require('./defaults');
+module.exports = require('./dist/defaults');
