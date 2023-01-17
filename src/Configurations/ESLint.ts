@@ -1,7 +1,6 @@
 export class ESLint {
 
     public static rules = {
-        'space-in-brackets': [ 'error', 'always' ],
         'constructor-super': 2,
         'for-direction': 2,
         'getter-return': 2,
@@ -68,14 +67,18 @@ export class ESLint {
         'use-isnan': 2,
         'valid-typeof': 2,
         'curly': 2,
-        'array-bracket-spacing': [
+        // 'array-bracket-spacing': [
+        //     'error',
+        //     'always',
+        //     {
+        //         'arraysInArrays': true,
+        //         'objectsInArrays': true,
+        //         'singleValue': true
+        //     }
+        // ],
+        'object-curly-spacing': [
             'error',
-            'always',
-            {
-                'arraysInArrays': true,
-                'objectsInArrays': true,
-                'singleValue': true
-            }
+            'always'
         ],
         'arrow-spacing': 2,
         'camelcase': 2,

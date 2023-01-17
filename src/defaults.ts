@@ -24,7 +24,7 @@ module.exports = {
         'plugin:jest/all',
         'plugin:import/recommended',
         'plugin:import/typescript',
-        'prettier',
+        'plugin:prettier/recommended',
         'eslint-config-prettier'
     ],
     overrides: [ ...Jest.overrides],
