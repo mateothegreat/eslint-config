@@ -1,7 +1,7 @@
 export class ESLint {
 
     public static rules = {
-
+        'space-in-brackets': [ 'error', 'always' ],
         'constructor-super': 2,
         'for-direction': 2,
         'getter-return': 2,
@@ -72,9 +72,9 @@ export class ESLint {
             'error',
             'always',
             {
-                "arraysInArrays": true,
-                "objectsInArrays": true,
-                "singleValue": true
+                'arraysInArrays': true,
+                'objectsInArrays': true,
+                'singleValue': true
             }
         ],
         'arrow-spacing': 2,
@@ -88,6 +88,6 @@ export class ESLint {
             }
         ]
 
-    }
+    };
 
 }
