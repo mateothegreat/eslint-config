@@ -33,8 +33,8 @@ module.exports = {
         ecmaVersion: 13,
         sourceType: 'module',
         tsconfigRootDir: process.cwd(),
-        // project: ['./tsconfig.json'],
-        extraFileExtensions: ['.html']
+        project: ['./tsconfig.json'],
+        // extraFileExtensions: ['.html']
     },
     plugins: [
         '@typescript-eslint',
