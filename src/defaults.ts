@@ -33,7 +33,7 @@ module.exports = {
         ecmaVersion: 13,
         sourceType: 'module',
         tsconfigRootDir: process.cwd(),
-        project: ['./tsconfig.json'],
+        // project: ['./tsconfig.json'],
         extraFileExtensions: ['.html']
     },
     plugins: [
