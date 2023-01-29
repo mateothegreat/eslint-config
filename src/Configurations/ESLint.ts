@@ -89,8 +89,8 @@ export class ESLint {
             {
                 avoidEscape: true
             }
-        ]
-
+        ],
+        'padding-line-between-statements': 0
     };
 
 }

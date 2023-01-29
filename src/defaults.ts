@@ -46,13 +46,11 @@ module.exports = {
         'prettier'
     ],
     rules: {
-
         ...ESLint.rules,
         ...Imports.rules,
         ...Jest.rules,
         ...Typescript.rules,
         ...Prettier.rules
-
     },
     "settings": {
         "import/resolver": {
