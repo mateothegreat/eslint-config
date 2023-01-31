@@ -7,6 +7,7 @@ import { Typescript } from './Configurations/Typescript';
 module.exports = {
     env: {
         node: true,
+        browser: true,
         jest: true,
         'jest/globals': true
     },
