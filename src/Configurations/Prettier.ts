@@ -6,7 +6,7 @@ export class Prettier {
             'error',
             {
                 endOfLine: 'auto',
-                printWidth: 200,
+                printWidth: 120,
                 tabWidth: 4,
                 semi: true,
                 singleQuotes: true,
