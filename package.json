@@ -18,12 +18,12 @@
     ".": "./dist/index.js"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf dist && tsc",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "release": "rm -rf dist && npm version from-git && npm publish --access=public"
+    "release": "npm run build && npm version from-git && npm publish --access=public"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.45.1",
