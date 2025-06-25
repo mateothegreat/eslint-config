@@ -15,14 +15,15 @@
     "email": "matthew@matthewdavis.io"
   },
   "exports": {
-    ".": "./src/index.ts"
+    ".": "./dist/index.js"
   },
   "scripts": {
     "build": "tsc",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "release": "rm -rf dist && npm version from-git && npm publish --access=public"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.45.1",
