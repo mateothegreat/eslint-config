@@ -10,6 +10,7 @@
 .%%%%%%....%%............%%..%%..%%%%%%..%%..%%....%%............%%%%%%..%%..%%...%%%%.....%%...
 ................................................................................................
 ```
+
 Covers:
 
 * Typescript
@@ -18,6 +19,16 @@ Covers:
 * Importing + sorting
 * Prettier integration
 * and more.. see [src/Configurations/](src/Configurations)!
+
+## Bundled Plugins
+
+* <https://github.com/ony3000/prettier-plugin-classnames>
+* <https://github.com/ony3000/prettier-plugin-merge>
+* <https://github.com/ony3000/prettier-plugin-brace-style>
+* <https://github.com/hosseinmd/prettier-plugin-jsdoc>
+* https://github.com/electrovir/prettier-plugin-multiline-arrays
+* https://github.com/ggascoigne/prettier-plugin-import-sort
+* https://github.com/ttskch/prettier-plugin-tailwindcss-anywhere
 
 ## Installation
 
@@ -50,3 +61,7 @@ Now you can run
 ```shell
 npx eslint src/
 ```
+
+# See also
+
+* <https://github.com/search?q=prettier-plugin+pushed%3A%3E2025-01-01+&type=repositories&p=3>

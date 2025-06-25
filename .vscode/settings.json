@@ -1,0 +1,22 @@
+{
+  "[markdown]": {
+    "editor.defaultFormatter": null
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": null,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "never",
+      "source.fixAll": "never"
+    }
+  },
+  "editor.defaultFormatter": null,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "never",
+    "source.fixAll": "never",
+    "source.fixAll.ts": "never",
+    "source.removeUnused.ts": "never",
+    "source.removeUnusedImports": "never"
+  },
+  "colorWheel.settings.workspaceColor": "hsl(184,82%,49%)",
+  "bevel.java": "/Users/matthewdavis/.cursor/extensions/bevel-software.bevel-1.3.0-universal/backend/amazon-corretto-17.jdk/Contents/Home/bin/java"
+}
